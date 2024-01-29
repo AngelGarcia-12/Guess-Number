@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+* {
+    font-family: 'Play', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.game {
+  background-size: cover;
+  /*Poner imagen*/
+  background-image: url("img/background-game.jpg");
+}
+
+.game .content-game {
+  width: 50%;
+  max-width: 600px;
+  min-width: 480px;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 50px 20px 100px 20px;
+  background-color: #252525;
+  color: white;
+  border-radius: 15px;
+}
+.game .content-game h1 {
+  text-align: center;
+  font-size: 35px;
+}
+.game .content-game p {
+  font-size: 18px;
+}
+/* Input */
+.game .content-game .guessField {
+  border: 3px solid #236578;
+  border-radius: 5px;
+}
+/* Buttom */
+.game .content-game .guessSubmit {
+  background-color: #F8FF36;
+  border-radius: 10px;
+  margin: auto;
+  margin-left: 10px;
+  padding: 3px 5px 3px 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* Reset */
+.game .content-game .reset {
+  background-color: #1CFF0F;
+  font-weight: bold;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40%;
+  margin-top: 10px;
+  padding: 3px 5px 3px 5px;
+  font-size: 15px;
+  display: none;
+}
+
+.lastResult {
+  color: white;
+  padding: 3px;
+}
+
+/* Seccion para contacto*/
+.contact {
+  background-color: #202020;
+  padding: 20px 0 30px 0;
+  color: white;
+  text-align: center;
+}
+.contact .content-contact {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 10px;
+}
+.contact .content-contact h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.contact .content-contact .row {
+  display: flex;
+  justify-content: space-around;
+}
+.contact .content-contact .row .col h2 {
+  color: #236578;
+}
+.contact .content-contact .row .col .info-contact {
+  color: #E0E0E0;
+}
+.sign {
+  background-color: #202020;
+  color: whitesmoke;
+  font-size: 14px;
+  padding: auto;
+  text-align: right;
+}
