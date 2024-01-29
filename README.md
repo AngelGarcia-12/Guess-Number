@@ -7,17 +7,17 @@ si uno de estos es incorrecto se muestra un mensaje indicando que el numero es "
 y se van acumulando los numeros introducidos.
 
 Una vez adivinado el numero aparecera un boton en el cual dara la opcion de volver a jugar.
-![General Game](github-image1.png)
-![First intent](github-image2.png)
+![General Game](img/github-image1.png)
+![First intent](img/github-image2.png)
 
 Aqui podemos ver el comportamiento al tratar de adivinar
-![Message incorrect](github-image3.png)
+![Message incorrect](img/github-image3.png)
 
 Aqui podemos ver despues de varios intentos y lograr adivinar el numero
-![Win Screen](github-image4.png)
+![Win Screen](img/github-image4.png)
 
 Aqui podemos ver cuando se excede el limite de intentos permitidos
-![Limit intent](github-image5.png)
+![Limit intent](img/github-image5.png)
 
 Aqui podemos ver la validacion si se ingresan letras en vez de numeros
-![Validate numbers](github-image6.png)
+![Validate numbers](img/github-image6.png)
