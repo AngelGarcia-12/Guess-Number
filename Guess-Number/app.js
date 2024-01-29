@@ -30,6 +30,12 @@ function checkGuess() {
     lastResult.style.textAlign = "center"
     lowOrHi.textContent = "";
     setGameOver();
+  } else if(userGuess !== Number) {
+    lastResult.textContent = "¡No es un numero!";
+    lastResult.style.backgroundColor = "red";
+    lastResult.style.borderRadius = "5px"
+    lastResult.style.textAlign = "center"
+    lowOrHi.textContent
   } else {
     lastResult.textContent = "¡Incorrecto!";
     lastResult.style.backgroundColor = "red";
